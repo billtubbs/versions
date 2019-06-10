@@ -27,5 +27,5 @@ gekko: not installed
 control: not installed
 ```
 
-You can edit the [__main__.py](__main__.py) script to check the versions of 
+You can edit the [`__main__.py`](__main__.py) script to check the versions of 
 whatever packages you want to check.
