@@ -95,3 +95,11 @@ try:
     print('control: %s' % control.__version__)
 except (import_exception, AttributeError):
     print('control: not installed')
+
+# Pygame
+try:
+    import pygame
+except ImportError:
+    print('pygame: not installed')
+else:
+    print('pygame: %s' % pygame.__version__)
