@@ -96,6 +96,13 @@ try:
 except (import_exception, AttributeError):
     print('control: not installed')
 
+# gym (Open AI Gym)
+try:
+    import gym
+    print('gym: %s' % gym.__version__)
+except import_exception:
+    print('gym: not installed')
+
 # Pygame
 try:
     import pygame
